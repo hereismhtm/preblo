@@ -39,7 +39,7 @@ abstract class Preblo<Event, State> extends Cubit<PrebloEcho<Event>> {
   void takeoff(
     Event event, {
     Crew? crew,
-    Function()? next,
+    void Function()? next,
     bool bypassLogic = false,
   }) {
     final echo = PrebloEcho<Event>(event, crew ?? const <Symbol, dynamic>{});
