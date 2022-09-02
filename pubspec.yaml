@@ -1,6 +1,6 @@
 name: preblo
 description: Presentation & business logic component.
-version: 0.0.1
+version: 0.0.2
 repository: https://github.com/hereismhtm/preblo/tree/master
 
 environment:
