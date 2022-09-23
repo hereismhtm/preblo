@@ -1,8 +1,8 @@
 library preblo;
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:meta/meta.dart';
 
 part 'preblo_echo.dart';
 part 'preblo_ui.dart';
