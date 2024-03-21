@@ -12,7 +12,7 @@ typedef Crew = Map<Symbol, dynamic>;
 abstract class Preblo<Event, State> extends Cubit<PrebloEcho<Event>> {
   /// Cubit will emitted the initial event state (as PrebloEcho<Event>), and
   /// user interface should react (via PrebloUI<T extends Preblo>) to that
-  /// event independently by returning the predefined widget related to it
+  /// event independently by returning the predefined widget related to
   /// (at runways getter).
   Preblo(Event initialEvent, State initialState, {Crew? crew})
       : super(
